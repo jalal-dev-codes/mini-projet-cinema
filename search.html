@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CinéVillage - Recherche</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 J&M Stream</h1>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="search.html">Rechercher un film</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="movies-section">
+
+            <h2>Rechercher un film</h2>
+
+            <input
+                type="search"
+                id="search-input"
+                placeholder="Exemple : Interstellar..."
+                aria-label="Rechercher un film"
+            >
+
+            <div id="search-results" class="movies-grid">
+                <p>Recherchez un film pour découvrir les résultats.</p>
+            </div>
+
+            <button id="load-more" hidden>
+                Charger plus de résultats
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 CinéVillage - Tous droits réservés</p>
+    </footer>
+
+    <script type="module" src="js/search.js"></script>
+
+</body>
+</html>
